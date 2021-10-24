@@ -1,0 +1,95 @@
+--CREATE TABLE employee (id INTEGER , name VARCHAR(50), birthday DATE, email VARCHAR(100) );
+
+--insert into employee (id, name, birthday, email) values (1, 'Olga Chilvers', '15/08/1999', 'ochilvers0@mayoclinic.com');
+--insert into employee (id, name, birthday, email) values (2, 'Wilden Klemt', '02/02/1998', 'wklemt1@1und1.de');
+--insert into employee (id, name, birthday, email) values (3, 'Cordi Comerford', '19/01/1999', 'ccomerford2@list-manage.com');
+--insert into employee (id, name, birthday, email) values (4, 'Cloe Arnason', '30/11/1996', 'carnason3@shop-pro.jp');
+--insert into employee (id, name, birthday, email) values (5, 'Lilith Cabbell', '13/11/1997', 'lcabbell4@ted.com');
+--insert into employee (id, name, birthday, email) values (6, 'Ellen Wyldes', '12/09/1998', 'ewyldes5@yellowpages.com');
+--insert into employee (id, name, birthday, email) values (7, 'Alphonse Crank', '05/02/2001', 'acrank6@telegraph.co.uk');
+--insert into employee (id, name, birthday, email) values (8, 'Cos Carnduff', '13/06/2000', 'ccarnduff7@slideshare.net');
+--insert into employee (id, name, birthday, email) values (9, 'Sibyl Malcher', '14/04/1997', 'smalcher8@noaa.gov');
+--insert into employee (id, name, birthday, email) values (10, 'Peyton Strivens', '16/11/1998', 'pstrivens9@apache.org');
+--insert into employee (id, name, birthday, email) values (11, 'Estevan Dennison', '03/07/1995', 'edennisona@salon.com');
+--insert into employee (id, name, birthday, email) values (12, 'Gwynne Drohane', '17/02/1997', 'gdrohaneb@so-net.ne.jp');
+--insert into employee (id, name, birthday, email) values (13, 'Mellisent Worstall', '06/01/1997', 'mworstallc@irs.gov');
+--insert into employee (id, name, birthday, email) values (14, 'Faunie Camilli', '29/08/2001', 'fcamillid@csmonitor.com');
+--insert into employee (id, name, birthday, email) values (15, 'Pooh Epperson', '05/11/2001', 'peppersone@booking.com');
+--insert into employee (id, name, birthday, email) values (16, 'Onfroi MacCosty', '09/06/1999', 'omaccostyf@usa.gov');
+--insert into employee (id, name, birthday, email) values (17, 'Ferd O''Neill', '21/03/1997', 'foneillg@com.com');
+--insert into employee (id, name, birthday, email) values (18, 'Wendi Bowller', '27/08/1996', 'wbowllerh@smugmug.com');
+--insert into employee (id, name, birthday, email) values (19, 'Caspar Moxstead', '02/02/1998', 'cmoxsteadi@disqus.com');
+--insert into employee (id, name, birthday, email) values (20, 'Hughie Tyres', '01/06/2001', 'htyresj@histats.com');
+--insert into employee (id, name, birthday, email) values (21, 'Alli Tunder', '12/11/1998', 'atunderk@mediafire.com');
+--insert into employee (id, name, birthday, email) values (22, 'Ignaz Spadotto', '17/03/2000', 'ispadottol@twitter.com');
+--insert into employee (id, name, birthday, email) values (23, 'Ber Slipper', '16/07/2001', 'bslipperm@ifeng.com');
+--insert into employee (id, name, birthday, email) values (24, 'Leonhard Anney', '19/03/1999', 'lanneyn@typepad.com');
+--insert into employee (id, name, birthday, email) values (25, 'Danice Archell', '18/05/1999', 'darchello@facebook.com');
+--insert into employee (id, name, birthday, email) values (26, 'Sasha Spandley', '18/11/2000', 'sspandleyp@umn.edu');
+--insert into employee (id, name, birthday, email) values (27, 'Carine Charlon', '25/04/1996', 'ccharlonq@blogger.com');
+--insert into employee (id, name, birthday, email) values (28, 'Pierrette Beavors', '25/10/1999', 'pbeavorsr@edublogs.org');
+--insert into employee (id, name, birthday, email) values (29, 'Ginnifer Bazley', '28/11/2000', 'gbazleys@wikimedia.org');
+--insert into employee (id, name, birthday, email) values (30, 'Fleming Ghiraldi', '30/12/1996', 'fghiraldit@java.com');
+--insert into employee (id, name, birthday, email) values (31, 'Aurelie Ondrusek', '17/02/1997', 'aondruseku@zimbio.com');
+--insert into employee (id, name, birthday, email) values (32, 'Fredra Cummins', '11/02/1998', 'fcumminsv@home.pl');
+--insert into employee (id, name, birthday, email) values (33, 'Magdalen Lehrle', '28/08/1996', 'mlehrlew@ocn.ne.jp');
+--insert into employee (id, name, birthday, email) values (34, 'Franklin Gwyn', '25/07/1995', 'fgwynx@cnn.com');
+--insert into employee (id, name, birthday, email) values (35, 'Godard Slark', '21/11/1997', 'gslarky@aboutads.info');
+--insert into employee (id, name, birthday, email) values (36, 'Tobey Brodhead', '03/07/1998', 'tbrodheadz@ebay.co.uk');
+--insert into employee (id, name, birthday, email) values (37, 'Leila Kingman', '26/11/1996', 'lkingman10@dmoz.org');
+--insert into employee (id, name, birthday, email) values (38, 'Petra Root', '21/09/2001', 'proot11@reuters.com');
+--insert into employee (id, name, birthday, email) values (39, 'Magdalene Janz', '30/05/1995', 'mjanz12@surveymonkey.com');
+--insert into employee (id, name, birthday, email) values (40, 'Trisha Quakley', '03/03/1999', 'tquakley13@mlb.com');
+--insert into employee (id, name, birthday, email) values (41, 'Marlena Reskelly', '24/06/1997', 'mreskelly14@delicious.com');
+--insert into employee (id, name, birthday, email) values (42, 'Pepita Olenikov', '13/08/1999', 'polenikov15@ebay.com');
+--insert into employee (id, name, birthday, email) values (43, 'Krystalle Pie', '07/08/1996', 'kpie16@washingtonpost.com');
+--insert into employee (id, name, birthday, email) values (44, 'Abraham Leuty', '25/05/1995', 'aleuty17@nhs.uk');
+--insert into employee (id, name, birthday, email) values (45, 'Adelheid Fronczak', '27/10/2000', 'afronczak18@is.gd');
+--insert into employee (id, name, birthday, email) values (46, 'Karoline Pedrocchi', '14/11/2001', 'kpedrocchi19@ted.com');
+--insert into employee (id, name, birthday, email) values (47, 'Constantino Whistlecroft', '09/05/1999', 'cwhistlecroft1a@imgur.com');
+--insert into employee (id, name, birthday, email) values (48, 'Nina Barriball', '27/08/1997', 'nbarriball1b@fema.gov');
+--insert into employee (id, name, birthday, email) values (49, 'Myles Sive', '03/07/1998', 'msive1c@economist.com');
+--insert into employee (id, name, birthday, email) values (50, 'Violet Dresser', '05/04/1999', 'vdresser1d@cbsnews.com');
+
+--UPDATE employee 
+--SET name='Chris Duarte',
+--	birthday='1996-05-23',
+--	email='chrisduarte@gmail.com'
+--WHERE name='Cloe Arnason'
+--RETURNING * ;
+--UPDATE employee
+--SET name='Brandon Clarke',
+--	birthday='1995-09-13',
+--	email='brandonclarke@yahoo.com'
+--WHERE id=11
+--RETURNING * ;
+--UPDATE employee 
+--SET name='Josh Giddey',
+--	birthday='2000-04-23',
+--	email='joshgiddey@outlook.com'
+--WHERE birthday='2001-08-29'
+--RETURNING * ;
+--UPDATE employee 
+--SET name='Lu Dort',
+--	birthday='1998-07-21',
+--	email='ludort@outlook.com'
+--WHERE email='peppersone@booking.com'
+--RETURNING * ;
+--UPDATE employee 
+--SET name='Jarrett Allen',
+--	birthday='1997-10-03',
+--	email='jarrettallen@gmail.com'
+--WHERE id=28
+--RETURNING * ;
+
+--DELETE FROM employee 
+--WHERE id=42 ;
+--DELETE FROM employee
+--WHERE name='Myles Sive';
+--DELETE FROM employee
+--WHERE birthday='1997-01-06';
+--DELETE FROM employee
+--WHERE email='atunderk@mediafire.com';
+--DELETE FROM employee
+--WHERE id=24;
+
